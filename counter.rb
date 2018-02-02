@@ -6,7 +6,7 @@ require_relative 'senators'
 
 def csv_init
   CSV.open('senate_counts.csv', 'wb') do |csv|
-    csv << ['senator', 'party', 'conference', 'district', 'lost_stricken', 'committee', 'floor_calendar', 'assembly', 'senate', 'full_leg', 'sent_to_gov', 'vetoed', 'signed', 'total']
+    csv << ['senator', 'party', 'conference', 'district', 'lost_stricken', 'introduced', 'committee', 'floor_calendar', 'assembly', 'senate', 'full_leg', 'sent_to_gov', 'vetoed', 'signed', 'total']
   end
 end
 
@@ -14,34 +14,38 @@ def bill(bill)
   stages = bill.css('ul.nys-bill-status__sml')[0].children.css('li')
 
   if stages[7].attr('class') == 'passed'
-    return 7 if stages[7].text.strip == "Signed by Governor"
+    return 9 if stages[7].text.strip == "Signed by Governor"
     return 8 if stages[7].text.strip == "Vetoed by Governor"
   elsif stages[6].attr('class') == 'passed'
-    return 6
+    return 7
   elsif stages[5].attr('class') == 'passed' && stages[4].attr('class') == 'passed'
-    return 3
+    return 6
   elsif stages[5].attr('class') == 'passed'
     return 5
   elsif stages[4].attr('class') == 'passed'
     return 4
   elsif stages[2].attr('class') == 'passed'
-    return 2
+    return 3
   elsif stages[1].attr('class') == 'passed'
-    return 1
+    return 2
   elsif stages[0].attr('class') == 'passed'
-    return 0
+    return 1
   else
-    return -1
+    return 0
   end
 end
 
 def parse_bills(array)
+  directory = [:lost_stricken, :introduced, :committee, :floor_calendar, :assembly, :senate, :full_leg, :sent_to_gov, :vetoed, :signed, :total]
+
   obj = {
     lost_stricken: 0,
+    introduced: 0,
     committee: 0,
     floor_calendar: 0,
     assembly: 0,
     senate: 0,
+    full_leg: 0,
     sent_to_gov: 0,
     vetoed: 0,
     signed: 0,
@@ -49,8 +53,11 @@ def parse_bills(array)
   }
 
   array.each do |b|
-    bill(b)
+    obj[directory[bill(b)]] += 1
+    obj[:total] += 1
   end
+
+  return obj
 end
 
 def add_senator(senator)
@@ -70,4 +77,4 @@ def add_senator(senator)
 end
 
 csv_init
-add_senator("Kenneth P. LaValle")
+add_senator("Jeffrey D. Klein")
