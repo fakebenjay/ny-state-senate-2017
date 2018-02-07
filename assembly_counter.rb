@@ -36,7 +36,7 @@ end
 def add_assembly
   obj = assembly_hash
   killswitch = false
-  page = 267
+  page = 321
 
   directory = [:lost_stricken, :introduced, :committee, :floor_calendar, :assembly, :senate, :full_leg, :sent_to_gov, :vetoed, :signed, :not_law, :total]
   vacancies = ["GJONAJ", "KAVANAGH", "KEARNS", "MOYA", "GRAF", "LOPEZ", "LUPINACCI", "MCKEVITT", "MCLAUGHLIN", "SIMANOWITZ", "FARRELL", "SALADINO"]
@@ -61,6 +61,11 @@ def add_assembly
       lastname = b.children.css('p.c-bill-update--sponsor').text.strip.split(": ")[1]
       next if vacancies.include?(lastname)
       next if !lastname ##Annual budget doesn't have a sponsor
+
+      lastname = "ROSENTHAL L" if lastname == "ROSENTHAL"
+
+      ## Dan Rosenthal joined the assembly in Nov 2017
+      ## Linda Rosenthal bills before that may be marked as "ROSENTHAL" instead of "ROSENTHAL L"
 
       obj[lastname][directory[bill(b)]] += 1
       obj[lastname][:total] += 1
