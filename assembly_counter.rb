@@ -36,7 +36,7 @@ end
 def add_assembly
   obj = assembly_hash
   killswitch = false
-  page = 321
+  page = 430
 
   directory = [:lost_stricken, :introduced, :committee, :floor_calendar, :assembly, :senate, :full_leg, :sent_to_gov, :vetoed, :signed, :not_law, :total]
   vacancies = ["GJONAJ", "KAVANAGH", "KEARNS", "MOYA", "GRAF", "LOPEZ", "LUPINACCI", "MCKEVITT", "MCLAUGHLIN", "SIMANOWITZ", "FARRELL", "SALADINO"]
@@ -70,10 +70,10 @@ def add_assembly
       obj[lastname][directory[bill(b)]] += 1
       obj[lastname][:total] += 1
       obj[lastname][:not_law] += 1 if bill(b) != 9
-      puts "Bill #{counter} on page #{page}!"
+      puts "Bill #{counter}"
       counter += 1
     end
-
+    puts "   Page #{page}"
     page += 1
   end
 
