@@ -69,6 +69,12 @@ def add_senator(senator)
     killswitch = true if bills.length == 0
 
     bills.each do |b|
+      next if b.children.css('h3.c-bill-num').text.strip.split(" ")[1].split('S')[1].to_i >= 7000
+      ## next if b.children.css('p.c-bill-update--date').text.split("|")[0].strip.split(',')[1].strip.gsub("  ", "") != "2017"
+
+      ## Filters out everything not from calendar year 2017
+      ## which for the 2017-18 session is any bill greater than/equal to S7000
+
       obj[directory[bill(b)]] += 1
       obj[:total] += 1
       obj[:not_law] += 1 if bill(b) != 9
