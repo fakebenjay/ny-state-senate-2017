@@ -36,7 +36,7 @@ end
 def add_assembly
   obj = assembly_hash
   killswitch = false
-  page = 430
+  page = 1
 
   directory = [:lost_stricken, :introduced, :committee, :floor_calendar, :assembly, :senate, :full_leg, :sent_to_gov, :vetoed, :signed, :not_law, :total]
   vacancies = ["GJONAJ", "KAVANAGH", "KEARNS", "MOYA", "GRAF", "LOPEZ", "LUPINACCI", "MCKEVITT", "MCLAUGHLIN", "SIMANOWITZ", "FARRELL", "SALADINO"]
@@ -50,6 +50,7 @@ def add_assembly
     # lastname = SharedVariables.assembly_list[member][:lastname].upcase
     # party = SharedVariables.assembly_list[member][:party]
     # district = SharedVariables.assembly_list[member][:district]
+    puts "Page #{page}"
 
     bills.each do |b|
       next if b.children.css('h3.c-bill-num').text.strip.split(" ")[1].split("")[0] == "S"
@@ -63,17 +64,15 @@ def add_assembly
       next if !lastname ##Annual budget doesn't have a sponsor
 
       lastname = "ROSENTHAL L" if lastname == "ROSENTHAL"
-
       ## Dan Rosenthal joined the assembly in Nov 2017
       ## Linda Rosenthal bills before that may be marked as "ROSENTHAL" instead of "ROSENTHAL L"
 
       obj[lastname][directory[bill(b)]] += 1
       obj[lastname][:total] += 1
       obj[lastname][:not_law] += 1 if bill(b) != 9
-      puts "Bill #{counter}"
+      puts "   Bill #{counter}"
       counter += 1
     end
-    puts "   Page #{page}"
     page += 1
   end
 
