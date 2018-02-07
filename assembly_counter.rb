@@ -36,7 +36,7 @@ end
 def add_assembly
   obj = assembly_hash
   killswitch = false
-  page = 205
+  page = 267
 
   directory = [:lost_stricken, :introduced, :committee, :floor_calendar, :assembly, :senate, :full_leg, :sent_to_gov, :vetoed, :signed, :not_law, :total]
   vacancies = ["GJONAJ", "KAVANAGH", "KEARNS", "MOYA", "GRAF", "LOPEZ", "LUPINACCI", "MCKEVITT", "MCLAUGHLIN", "SIMANOWITZ", "FARRELL", "SALADINO"]

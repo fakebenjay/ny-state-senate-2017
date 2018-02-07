@@ -131,7 +131,7 @@ module SharedVariables
     "O'DONNELL"=>{:party=>"Democratic", :district=>"69", :fullname=>"Daniel O'Donnell"},
     "DICKENS"=>{:party=>"Democratic", :district=>"70", :fullname=>"Inez Dickens"},
     "TAYLOR"=>{:party=>"Democratic", :district=>"71", :fullname=>"Al Taylor"},
-    "ROSA"=>{:party=>"Democratic", :district=>"72", :fullname=>"Carmen De La Rosa"},
+    "DE LA ROSA"=>{:party=>"Democratic", :district=>"72", :fullname=>"Carmen De La Rosa"},
     "QUART"=>{:party=>"Democratic", :district=>"73", :fullname=>"Dan Quart"},
     "GOTTFRIED"=>{:party=>"Democratic", :district=>"75", :fullname=>"Richard Gottfried"},
     "SEAWRIGHT"=>{:party=>"Democratic", :district=>"76", :fullname=>"Rebecca Seawright"},
