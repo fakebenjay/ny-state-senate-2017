@@ -76,8 +76,10 @@ def add_assembly
     page += 1
   end
 
-  CSV.open('senate_counts.csv', 'a+') do |csv|
-    csv << [member, district, party, conference, obj[:lost_stricken], obj[:introduced], obj[:committee], obj[:floor_calendar], obj[:assembly], obj[:senate], obj[:full_leg], obj[:sent_to_gov], obj[:vetoed], obj[:signed], obj[:not_law], obj[:total]]
+  obj.keys.each do |member|
+    CSV.open('assembly_counts.csv', 'a+') do |csv|
+      csv << [obj[member][:fullname], obj[member][:district], obj[member][:party], obj[member][:lost_stricken], obj[member][:introduced], obj[member][:committee], obj[member][:floor_calendar], obj[member][:assembly], obj[member][:senate], obj[member][:full_leg], obj[member][:sent_to_gov], obj[member][:vetoed], obj[member][:signed], obj[member][:not_law], obj[member][:total]]
+    end
   end
 end
 

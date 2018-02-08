@@ -1,0 +1,142 @@
+member,district,party,lost_stricken,introduced,committee,floor_calendar,assembly,senate,full_leg,sent_to_gov,vetoed,signed,not_law,total,pct_passed
+Fred Thiele,1,Independence,1,0,183,7,1,0,0,0,2,15,194,209,7.18%
+Anthony Palumbo,2,Republican,0,0,11,0,0,0,0,0,0,1,11,12,8.33%
+L. Dean Murray,3,Republican,3,0,23,0,0,0,0,0,0,1,26,27,3.70%
+Steven Englebright,4,Democratic,0,0,222,21,1,0,1,0,1,14,246,260,5.38%
+Philip Ramos,6,Democratic,0,0,34,2,0,0,0,0,0,2,36,38,5.26%
+Andrew Garbarino,7,Republican,0,0,9,0,0,0,0,0,1,2,10,12,16.67%
+Michael J. Fitzpatrick,8,Republican,0,0,47,0,0,0,0,0,0,2,47,49,4.08%
+Christine Pellegrino,9,Democratic,0,0,1,0,0,0,0,0,0,2,1,3,66.67%
+Kimberly Jean-Pierre,11,Democratic,0,0,11,2,0,0,0,0,0,0,13,13,0.00%
+Andrew Raia,12,Republican,1,0,49,0,0,0,0,0,0,0,50,50,0.00%
+Charles Lavine,13,Democratic,2,0,46,5,0,0,0,0,1,2,54,56,3.57%
+David McDonough,14,Republican,0,0,21,0,0,0,0,0,0,0,21,21,0.00%
+Michael Montesano,15,Republican,0,0,36,0,0,0,0,0,0,1,36,37,2.70%
+Anthony D'Urso,16,Democratic,0,0,15,2,1,0,0,0,0,6,18,24,25.00%
+Earlene Hooper,18,Democratic,0,0,23,3,0,0,0,0,1,2,27,29,6.90%
+Ed Ra,19,Republican,3,0,23,0,0,0,0,0,0,3,26,29,10.34%
+Melissa Miller,20,Republican,0,0,12,2,0,0,0,0,0,1,14,15,6.67%
+Brian F. Curran,21,Republican,0,0,68,0,0,0,0,0,0,3,68,71,4.23%
+Michaelle C. Solages,22,Democratic,0,0,53,5,0,0,0,0,0,0,58,58,0.00%
+Stacey Pheffer Amato,23,Democratic,0,0,16,1,0,0,0,0,0,4,17,21,19.05%
+David Weprin,24,Democratic,0,0,179,12,0,0,0,0,2,8,193,201,3.98%
+Nily Rozic,25,Democratic,0,0,74,8,1,0,0,0,0,2,83,85,2.35%
+Edward Braunstein,26,Democratic,0,0,56,4,2,0,0,0,0,1,62,63,1.59%
+Daniel Rosenthal,27,Democratic,0,0,0,0,0,0,0,0,0,0,0,0,#DIV/0!
+Andrew Hevesi,28,Democratic,1,0,52,5,1,0,0,0,0,4,59,63,6.35%
+Alicia Hyndman,29,Democratic,0,0,20,1,0,0,0,0,0,5,21,26,19.23%
+Brian Barnwell,30,Democratic,0,0,25,1,0,0,0,0,0,0,26,26,0.00%
+Michele Titus,31,Democratic,0,0,68,9,0,0,0,0,0,1,77,78,1.28%
+Vivian Cook,32,Democratic,0,0,37,2,0,0,0,0,1,0,40,40,0.00%
+Clyde Vanel,33,Democratic,1,0,16,0,0,0,0,0,0,0,17,17,0.00%
+Michael DenDekker,34,Democratic,2,0,112,2,0,0,0,0,0,5,116,121,4.13%
+Jeffrion Aubry,35,Democratic,0,0,53,6,0,0,0,0,0,1,59,60,1.67%
+Aravella Simotas,36,Democratic,0,0,63,6,0,0,0,0,1,5,70,75,6.67%
+Catherine Nolan,37,Democratic,0,0,35,3,1,0,0,0,1,7,40,47,14.89%
+Michael G. Miller,38,Democratic,0,0,85,0,0,0,0,0,0,1,85,86,1.16%
+Ron Kim,40,Democratic,0,0,33,0,1,0,0,0,1,1,35,36,2.78%
+Helene Weinstein,41,Democratic,13,0,8,22,4,0,0,0,0,5,47,52,9.62%
+Rodneyse Bichotte,42,Democratic,0,0,53,3,3,0,0,0,1,2,60,62,3.23%
+Diana Richardson,43,Democratic,0,0,33,5,0,0,0,0,0,2,38,40,5.00%
+Robert Carroll,44,Democratic,1,0,32,2,0,0,0,0,0,1,35,36,2.78%
+Steven Cymbrowitz,45,Democratic,0,0,70,12,0,0,0,0,1,1,83,84,1.19%
+Pamela Harris,46,Democratic,0,0,18,5,0,0,0,0,0,1,23,24,4.17%
+William Colton,47,Democratic,0,0,58,1,0,0,0,0,0,1,59,60,1.67%
+Dov Hikind,48,Democratic,0,0,2,0,0,0,0,0,0,1,2,3,33.33%
+Peter Abbate,49,Democratic,0,0,78,6,0,0,0,0,10,14,94,108,12.96%
+Joseph Lentol,50,Democratic,0,0,122,10,0,0,0,0,1,1,133,134,0.75%
+Félix Ortiz,51,Democratic,0,0,197,3,0,0,0,0,1,6,201,207,2.90%
+Jo Anne Simon,52,Democratic,0,0,40,2,0,0,0,0,2,2,44,46,4.35%
+Maritza Davila,53,Democratic,1,0,5,3,0,0,0,0,0,0,9,9,0.00%
+Erik Dilan,54,Democratic,0,0,9,4,0,0,0,0,0,0,13,13,0.00%
+Latrice Walker,55,Democratic,0,0,41,6,0,0,0,0,0,2,47,49,4.08%
+Tremaine Wright,56,Democratic,0,0,7,4,0,0,0,0,0,0,11,11,0.00%
+Walter T. Mosley,57,Democratic,4,0,34,4,0,0,0,0,0,1,42,43,2.33%
+N. Nick Perry,58,Democratic,1,0,102,8,0,0,0,0,2,0,113,113,0.00%
+Jaime Williams,59,Democratic,0,0,6,1,0,0,0,0,0,2,7,9,22.22%
+Charles Barron,60,Democratic,0,0,9,1,0,0,0,0,1,0,11,11,0.00%
+Matthew Titone,61,Democratic,3,0,117,8,0,0,0,0,0,5,128,133,3.76%
+Ronald Castorina,62,Republican,0,0,28,0,0,0,0,0,0,0,28,28,0.00%
+Michael Cusick,63,Democratic,5,0,130,6,3,0,0,0,1,7,145,152,4.61%
+Nicole Malliotakis,64,Republican,0,0,30,0,0,0,0,0,0,1,30,31,3.23%
+Yuh-Line Niou,65,Democratic,0,0,6,3,0,0,0,0,0,2,9,11,18.18%
+Deborah Glick,66,Democratic,1,0,52,13,0,0,0,0,3,3,69,72,4.17%
+Linda Rosenthal,67,Democratic,0,0,341,19,3,0,0,0,1,7,364,371,1.89%
+Robert J. Rodriguez,68,Democratic,1,0,59,2,1,0,0,0,0,1,63,64,1.56%
+Daniel O'Donnell,69,Democratic,0,0,65,9,0,0,0,0,0,0,74,74,0.00%
+Inez Dickens,70,Democratic,0,0,16,0,0,0,0,0,0,1,16,17,5.88%
+Al Taylor,71,Democratic,0,0,0,0,0,0,0,0,0,0,0,0,#DIV/0!
+Carmen De La Rosa,72,Democratic,0,0,10,2,1,0,0,0,0,2,13,15,13.33%
+Dan Quart,73,Democratic,0,0,55,5,0,0,0,0,1,1,61,62,1.61%
+Richard Gottfried,75,Democratic,1,0,58,31,1,0,0,0,5,17,96,113,15.04%
+Rebecca Seawright,76,Democratic,0,0,17,8,0,0,0,0,1,3,26,29,10.34%
+Latoya Joyner,77,Democratic,0,0,24,7,1,0,0,0,0,3,32,35,8.57%
+Jose Rivera,78,Democratic,0,0,0,0,0,0,0,0,0,0,0,0,#DIV/0!
+Michael Blake,79,Democratic,0,0,28,3,0,0,0,0,0,1,31,32,3.13%
+Jeffrey Dinowitz,81,Democratic,71,0,85,23,2,0,0,0,4,14,185,199,7.04%
+Michael Benedetto,82,Democratic,1,0,10,2,0,0,0,0,1,2,14,16,12.50%
+Carl Heastie,83,Democratic,0,0,0,2,0,0,0,0,0,0,2,2,0.00%
+Carmen E. Arroyo,84,Democratic,0,0,5,0,0,0,0,0,0,0,5,5,0.00%
+Marcos Crespo,85,Democratic,0,0,113,7,0,0,0,0,1,6,121,127,4.72%
+Victor M. Pichardo,86,Democratic,0,0,30,1,0,0,0,0,2,1,33,34,2.94%
+Luis R. Sepúlveda,87,Democratic,3,0,90,7,0,0,0,0,1,2,101,103,1.94%
+Amy Paulin,88,Democratic,10,0,110,11,5,0,0,0,1,15,137,152,9.87%
+J. Gary Pretlow,89,Democratic,1,0,243,6,1,0,0,0,4,9,255,264,3.41%
+Shelley Mayer,90,Democratic,0,0,32,4,1,0,0,0,0,5,37,42,11.90%
+Steven Otis,91,Democratic,0,0,9,1,0,0,0,0,0,6,10,16,37.50%
+Tom Abinanti,92,Democratic,1,0,96,9,2,0,0,0,1,4,109,113,3.54%
+David Buchwald,93,Democratic,1,0,33,5,1,0,0,0,1,8,41,49,16.33%
+Kevin Byrne,94,Republican,0,0,7,0,0,0,0,0,0,5,7,12,41.67%
+Sandy Galef,95,Democratic,0,0,67,8,1,0,0,0,2,6,78,84,7.14%
+"Kenneth Zebrowski, Jr.",96,Democratic,0,0,125,12,8,0,0,0,1,6,146,152,3.95%
+Ellen Jaffee,97,Democratic,0,0,32,11,1,0,0,0,1,5,45,50,10.00%
+Karl A. Brabenec,98,Republican,2,0,29,1,0,0,0,0,0,0,32,32,0.00%
+James Skoufis,99,Democratic,0,0,25,3,1,0,0,0,2,5,31,36,13.89%
+Aileen Gunther,100,Democratic,0,0,203,5,2,0,0,0,3,15,213,228,6.58%
+Brian Miller,101,Republican,0,0,26,0,0,0,0,0,0,1,26,27,3.70%
+Kevin Cahill,103,Democratic,3,0,161,7,3,0,0,0,0,8,174,182,4.40%
+Frank Skartados,104,Democratic,0,0,30,3,0,0,0,0,1,3,34,37,8.11%
+Kieran Lalor,105,Republican,0,0,25,0,0,0,0,0,0,0,25,25,0.00%
+Didi Barrett,106,Democratic,0,0,10,3,0,0,0,0,0,6,13,19,31.58%
+John T. McDonald III,108,Democratic,6,0,46,3,0,0,0,0,3,7,58,65,10.77%
+Patricia Fahy,109,Democratic,1,0,47,3,0,0,0,0,1,7,52,59,11.86%
+Phil Steck,110,Democratic,1,0,40,5,0,0,0,0,1,1,47,48,2.08%
+Angelo Santabarbara,111,Democratic,1,0,41,0,1,0,0,0,0,5,43,48,10.42%
+Mary Beth Walsh,112,Republican,1,0,10,0,0,0,0,0,0,1,11,12,8.33%
+Carrie Woerner,113,Democratic,3,0,40,1,0,0,0,0,0,10,44,54,18.52%
+Dan Stec,114,Republican,1,0,15,0,0,0,0,0,0,2,16,18,11.11%
+Billy Jones,115,Democratic,0,0,21,0,0,0,0,0,0,6,21,27,22.22%
+Addie Jenne,116,Democratic,0,0,47,0,0,0,0,0,2,5,49,54,9.26%
+Ken Blankenbush,117,Republican,1,0,22,0,0,0,0,0,0,0,23,23,0.00%
+Marc Butler,118,Republican,0,0,22,0,0,0,0,0,0,1,22,23,4.35%
+Anthony Brindisi,119,Democratic,6,0,52,3,0,0,0,0,3,4,64,68,5.88%
+William A. Barclay,120,Republican,0,0,42,0,0,0,0,0,0,2,42,44,4.55%
+William Magee,121,Democratic,1,0,97,0,0,0,0,0,1,7,99,106,6.60%
+Clifford Crouch,122,Republican,0,0,96,0,0,0,0,0,0,8,96,104,7.69%
+Donna Lupardo,123,Democratic,1,0,35,4,2,0,0,0,4,9,46,55,16.36%
+Christopher Friend,124,Republican,0,0,6,1,0,0,0,0,0,2,7,9,22.22%
+Barbara Lifton,125,Democratic,0,0,30,2,0,0,0,0,0,1,32,33,3.03%
+Gary Finch,126,Republican,3,0,17,0,0,0,0,0,0,1,20,21,4.76%
+Al Stirpe,127,Democratic,0,0,28,2,0,0,0,0,0,3,30,33,9.09%
+Pamela Hunter,128,Democratic,0,0,28,5,1,0,0,0,0,5,34,39,12.82%
+William Magnarelli,129,Democratic,0,0,57,5,1,0,0,0,2,9,65,74,12.16%
+Robert Oaks,130,Republican,1,0,45,0,0,0,0,0,0,1,46,47,2.13%
+Brian Kolb,131,Republican,1,0,84,0,0,0,0,0,1,1,86,87,1.15%
+Philip Palmesano,132,Republican,1,0,23,0,0,0,0,0,0,1,24,25,4.00%
+Joseph Errigo,133,Republican,0,0,17,0,0,0,0,0,0,2,17,19,10.53%
+Peter Lawrence,134,Republican,0,0,16,0,0,0,0,0,0,0,16,16,0.00%
+Mark C. Johns,135,Republican,0,0,8,0,0,0,0,0,0,0,8,8,0.00%
+Joseph Morelle,136,Democratic,0,0,32,2,0,0,0,0,4,7,38,45,15.56%
+David Gantt,137,Democratic,0,0,98,5,1,0,0,0,0,1,104,105,0.95%
+Harry Bronson,138,Democratic,0,0,31,6,0,0,0,0,1,3,38,41,7.32%
+Stephen Hawley,139,Republican,0,0,69,0,0,0,0,0,0,3,69,72,4.17%
+Robin Schimminger,140,Democratic,0,0,90,0,1,0,0,0,0,8,91,99,8.08%
+Crystal Peoples-Stokes,141,Democratic,17,0,87,12,2,0,0,0,0,6,118,124,4.84%
+Monica P. Wallace,143,Democratic,0,0,10,2,0,0,0,0,0,5,12,17,29.41%
+Michael Norris,144,Republican,0,0,16,0,0,0,0,0,0,0,16,16,0.00%
+Angelo Morinello,145,Republican,0,0,25,0,0,0,0,0,0,1,25,26,3.85%
+Raymond Walter,146,Republican,2,0,19,0,0,0,0,0,0,1,21,22,4.55%
+David DiPietro,147,Republican,0,0,60,0,0,0,0,0,0,0,60,60,0.00%
+Joseph Giglio,148,Republican,0,0,39,0,0,0,0,0,0,2,39,41,4.88%
+Sean Ryan,149,Democratic,2,0,41,4,0,0,0,0,1,3,48,51,5.88%
+Andy Goodell,150,Republican,0,0,27,0,0,0,0,0,1,1,28,29,3.45%
